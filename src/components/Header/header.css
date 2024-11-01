@@ -1,0 +1,55 @@
+nav {
+    background-color: #181818;
+    width: 100%;
+    height: 100%;
+    
+    box-shadow: 8px 3px 26px -5px #00ffff;
+}
+.asktoconnect {
+    width: 100%;
+    background-color: #CA8A04;    
+    padding: 5px 10px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.asktoconnect img{
+    width: 13px;
+}
+.asktoconnect p {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+}
+.navbar_links{
+    border: 1px solid rgba(0, 255, 255, 0.5);
+    border-radius: 0px 0px 5px 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.nav_links_box {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+.wallet_connect{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.nav_links {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.7)
+}
+.logo {
+    font-weight: 600;
+    font-size: 24px;
+}

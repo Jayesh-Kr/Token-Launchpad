@@ -1,0 +1,42 @@
+footer{
+    color: white;
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container {
+    /* margin: 0 100px; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    gap: 50px;
+}
+.footer_container-upper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 130px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+.footer_container-lower{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.f_con_l1 h2{
+    font-family: "manrope";
+}
+.f_con_l1 p {
+    font-family: "poppins";
+}
+.f_con_l1 img {
+    width: 40px;
+    background-color: white;
+    margin-top: 10px;
+}
+.f_con_l1 img:first-of-type {
+    margin-right: 15px;
+}

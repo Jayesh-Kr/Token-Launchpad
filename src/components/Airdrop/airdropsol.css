@@ -1,0 +1,70 @@
+.airdrop_container{
+    
+    padding: 100px 0;
+}
+
+.airdrop_container_box {
+    background-color: #181818;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(0, 255, 255);
+    color: white;
+}
+
+.airdrop_container_box h1{
+    font-family: "manrope";
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.sol_amount{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.airdrop_container_box .sol_amount p {
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 500;
+}
+.sol_amount input {
+    padding: 5px;
+    background-color: #181818;
+    border: 1px solid white;
+    color: white;
+}
+
+.request_btn {
+    background-color: #E41B3F;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "manrope";
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.sol_balance {
+    font-family: "manrope";
+}
+
+.airdrop_container_box p {
+    font-family: "manrope";
+    text-align: center;
+}
+
+@media screen and (max-width:350px) {
+    .footer_container {
+        padding: 50px;
+    }
+}
