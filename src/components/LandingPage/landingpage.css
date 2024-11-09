@@ -1,56 +1,56 @@
 .header_container {
-    padding: 100px 30px;
+  padding: 100px 30px;
 }
 .welcome_text {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 .welcome_text h1 {
-    font-family: "manrope";
-    font-size: 50px;
-    font-weight: 800;
-    letter-spacing: 1px;
+  font-family: "manrope";
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 .welcome_text p {
-    font-family: "poppins";
-    margin-top: 10px;
-    font-size: 19px;
+  font-family: "poppins";
+  margin-top: 10px;
+  font-size: 19px;
 }
 .website_topic {
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 .website_topic_box {
-    flex-grow: 1;
-    width: 400px;
-    max-width: 600px;
-    background-color: #181818;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  flex-grow: 1;
+  width: 400px;
+  max-width: 600px;
+  background-color: #181818;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.website_topic_box h2{
-    font-family: 'manrope';
-    font-weight: 700;  
-    font-size: 26px;  
+.website_topic_box h2 {
+  font-family: "manrope";
+  font-weight: 700;
+  font-size: 26px;
 }
 .website_topic_box p {
-    font-family: 'poppins';
-    font-size: 14px;
-    font-weight: 400;
+  font-family: "poppins";
+  font-size: 14px;
+  font-weight: 400;
 }
 .website_topic_box .btn {
-    background-color: #E41B3F;
-    padding: 15px 0; 
-    width: 150px;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'manrope';
-    font-weight: 500;
-    cursor: pointer;
+  background-color: #e41b3f;
+  padding: 15px 0;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "manrope";
+  font-weight: 500;
+  cursor: pointer;
 }

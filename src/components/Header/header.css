@@ -1,55 +1,145 @@
 nav {
-    background-color: #181818;
-    width: 100%;
-    height: 100%;
-    
-    box-shadow: 8px 3px 26px -5px #00ffff;
+  background-color: #181818;
+  width: 100%;
+  height: 100%;
+  box-shadow: 8px 3px 26px -5px #00ffff;
+  position: relative;
+  z-index: 10;
 }
+
 .asktoconnect {
-    width: 100%;
-    background-color: #CA8A04;    
-    padding: 5px 10px ;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
+  width: 100%;
+  background-color: #ca8a04;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 2px solid rgba(0, 255, 255, 0.5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
 }
-.asktoconnect img{
-    width: 13px;
+
+.asktoconnect img {
+  width: 18px;
 }
+
 .asktoconnect p {
-    font-family: "Poppins";
-    font-weight: 500;
-    color: white;
-    font-size: 12px;
+  font-weight: 500;
 }
-.navbar_links{
-    border: 1px solid rgba(0, 255, 255, 0.5);
-    border-radius: 0px 0px 5px 5px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    flex-wrap: wrap;
-    row-gap: 20px;
+
+.navbar_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #181818;
+  border-radius: 0px 0px 5px 5px;
+  position: relative;
 }
+
 .nav_links_box {
-    display: flex;
-    column-gap: 20px;
-    row-gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  flex-grow: 1;
 }
-.wallet_connect{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
+
 .nav_links {
-    font-size: 16px;
-    font-family: 'Poppins';
-    color: rgba(255, 255, 255, 0.7)
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.nav_links:hover {
+  color: #00ffff;
+  transform: scale(1.05);
+}
+
+.wallet_connect {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .logo {
-    font-weight: 600;
-    font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .navbar_links {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav_links_box {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .nav_links {
+    font-size: 14px;
+  }
+
+  .wallet_connect {
+    margin-top: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .asktoconnect {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .asktoconnect img {
+    width: 20px;
+    margin-bottom: 5px;
+  }
+
+  .navbar_links {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav_links_box {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .wallet_connect {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .nav_links {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.nav_links,
+.wallet_connect button {
+  transition: all 0.3s ease;
+}
+.navbar_links a {
+  text-decoration: none;
 }

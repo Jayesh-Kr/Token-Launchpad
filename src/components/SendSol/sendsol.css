@@ -1,0 +1,57 @@
+.send_sol {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.airdrop_container_box .send_sol p {
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+.send_sol input {
+  padding: 8px;
+  background-color: #181818;
+  border: 1px solid white;
+  color: white;
+  width: 300px;
+  font-size: 16px;
+}
+
+/* Sent Token CSS */
+.dropdown {
+  width: 300px;
+}
+/* .dropdown::placeholder {
+    background-color: #181818;
+    color: white;
+}  */
+.ant-select-arrow {
+  color: white;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-select .ant-select-arrow {
+  color: white !important;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-select-outlined:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  border: 1px solid #d9d9d9;
+  background-color: #181818;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-select-dropdown
+  .ant-select-item-option-content {
+  color: white !important;
+}
+.ant-select-dropdown {
+  background-color: #181818 !important;
+  border: 1px solid white !important;
+}
+.ant-select-selection-item {
+  color: white !important;
+}
+.ant-select-selection-placeholder {
+  color: white !important;
+}
